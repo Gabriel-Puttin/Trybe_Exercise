@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Lunix
+Kernel
+Shell
+BIOS
+JavaScript
