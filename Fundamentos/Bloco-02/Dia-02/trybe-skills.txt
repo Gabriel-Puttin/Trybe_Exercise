@@ -1,7 +1,5 @@
 - Unix
 - Bash
 - Git
-trybe-skills-updates
 - HTML
 - CSS
- master
