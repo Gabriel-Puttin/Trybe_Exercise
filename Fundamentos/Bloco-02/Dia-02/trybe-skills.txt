@@ -1,6 +1,7 @@
-O que eu vou aprender na Trybe:
-
 - Unix
 - Bash
 - Git
-MongoDB
+trybe-skills-updates
+- HTML
+- CSS
+ master
