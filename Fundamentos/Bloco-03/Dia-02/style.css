@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.type-background {
+    background-color: blue;
+}
+
+ul {
+    background-color: black;
+    font-style: oblique;
+    line-height: 5;
+}
