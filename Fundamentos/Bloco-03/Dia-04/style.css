@@ -1,0 +1,104 @@
+
+body {
+    font-size: 20px;
+    line-height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    padding-top: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+
+
+.top-side {
+    background-image: url("https://static.inaturalist.org/photos/8853492/large.jpg");
+    background-size: 100%;
+    background-position-y: -165px;
+    height: 500px;
+}
+
+.indice {
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.indice li {
+    text-align: center;
+    font-size: 30px;
+    display: inline;
+    padding: 40px;
+    
+}
+
+.indice li a {
+    color: black;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 2rem;
+    color: rgb(209, 30, 30);
+}
+
+img {
+    width: 300px;
+    float: right;
+}
+
+.section-one p {
+    text-align: justify;
+    width: 75%;
+    margin-right: auto;
+}
+
+.section-one ul {
+    float: right;
+    position: absolute;
+    margin-left: 980px;
+    top: 880px;
+}
+
+.section-two p {
+    text-align: justify;
+    width: 75%;
+    margin-right: auto;
+}
+
+.section-tree p {
+    text-align: justify;
+    width: 75%;
+    margin-right: auto;
+}
+
+aside {
+    text-align: center;
+}
+
+.section-four ul li:hover {
+    background-color: rgb(97, 101, 102);
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(67, 241, 67);
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p:hover {
+    color: white;
+    font-weight: bold;
+}
