@@ -168,6 +168,7 @@
 //  console.log(result);
 
  // exercício 8
+
   let listOfNumbers = [];
 
   for (let index = 0; index <= 25; index += 1) {
@@ -186,4 +187,3 @@
   for (let indexTwo = 0; indexTwo < listOfNumbers.length; indexTwo += 1) {
     console.log(listOfNumbers[indexTwo] / 2);
   }
-  
