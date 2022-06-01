@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Header da página</h1>
+</header>
+<main>
+    <form action="" method="get">
+    <fieldset>
+    <div id="informations">
+        <label for="name">Nome: </label>
+        <input type="text" name="name" placeholder="Digite seu nome" maxlength="40" autocomplete="off" required id="name">
+    <br>
+    <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" maxlength="50" autocomplete="off" required id="email">
+    </div>
+    <div id="destino">
+        <label for="destino">Destino preferido:</label>
+        <input type="radio" name="destino" class="destino">Cidade
+        <input type="radio" name="destino" class="destino">Campo
+        <input type="radio" name="destino" class="destino">Praia
+        <input type="radio" name="destino" class="destino">Montanhas
+    </div>
+    <div id="space">
+        <label for="texto-area">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+        <textarea name="descrição" id="texto-area" placeholder="Espaço para digitar a resposta" maxlength="500"></textarea>
+    </div>
+    <div id="data">
+        <label for="">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" name="data" id="date">
+    </div>
+    <div id="options">
+        <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+        <label for="option1">Concordo: </label>
+        <input type="checkbox" name="opcao1" id="option1">
+        <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+        <label for="option2">Concordo: </label>
+        <input type="checkbox" name="opcao2" id="option2" required>
+    </div>
+    </fieldset>
+    <div id="button">
+        <button type="submit" id="butto-submit" disabled>Enviar</button>
+        <button type="reset">Apagar</button>
+    </div>
+    </form>
+</main>
+<footer>
+    <p>Formato do Formulário TrybeTrip.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
