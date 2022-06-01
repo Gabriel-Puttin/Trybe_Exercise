@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    color: gray;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+fieldset {
+    border: 3px solid black;
+    margin: 10px 10px 10px 30px;
+    padding: 15px;
+    width: 60%;
+}
+
+#informations {
+    width: 30%;
+}
+
+#informations input {
+    padding: 5px;
+}
+
+#informations label {
+    margin-left: 10px;
+}
+
+#email {
+    margin-left: 4px;
+}
+
+#destino label {
+    display: block;
+    margin: 10px 10px 0px 10px;
+}
+
+#destino input {
+    margin: 10px;
+}
+
+#space label {
+    margin-left: 10px;
+}
+
+#space textarea {
+    margin: 10px;
+    width: 40%;
+    height: 160px;
+    font-size: 16px;
+    resize: none;
+}
+
+#data {
+    margin-left: 10px;
+}
+
+#data label {
+    display: block;
+}
+
+#data input {
+    margin-top: 10px;
+}
+
+#options p{
+    margin: 10px;
+}
+
+#options label {
+    margin-left: 10px;
+}
+
+#options input {
+    margin-left: 5px;
+}
+
+#button {
+    width: 25%;
+    margin-left: 30px;
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+footer {
+    color: gray;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
