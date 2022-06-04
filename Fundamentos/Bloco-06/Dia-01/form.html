@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="card text-center">
-    <h1 >Header da página</h1>
-</header>
+<div class="color">
+    <header class="text-center">
+        <h1 >Header da página</h1>
+    </header>
+</div>
 <main>
     <form action="" method="get">
     <fieldset class="container">
@@ -46,24 +48,33 @@
         <label for="">Qual a melhor data para realizar sua viagem?</label>
         <input type="date" name="data" id="date">
     </div>
-    <div class="container">
+
+    <div class="form-check mt-3">
         <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
-        <label for="option1">Concordo: </label>
-        <input type="checkbox" name="opcao1" id="option1">
+        <input class="form-check-input" type="checkbox" name="opcao1" id="flexCheckChecked">
+        <label class="form-check-label" for="flexCheckChecked">
+            Concordo
+        </label>
+    </div>
+
+    <div class="form-check mt-3">
         <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
-        <label for="option2">Concordo: </label>
-        <input type="checkbox" name="opcao2" id="option2" required>
+        <input class="form-check-input" type="checkbox" name="opcao2" id="option2" required>
+        <label class="form-check-label" for="option2">Concordo </label>
     </div>
     </fieldset>
-    <div class="container">
-        <button type="submit" id="butto-submit" disabled>Enviar</button>
-        <button type="reset">Apagar</button>
+    
+    <div class="d-grid gap-2 col-1 mx-auto">
+        <button class="btn btn-success" type="submit" id="butto-submit" disabled>Enviar</button>
+        <button class="btn btn-primary" type="reset">Apagar</button>
     </div>
     </form>
 </main>
-<footer>
-    <p>Formato do Formulário TrybeTrip.</p>
-</footer>
+<div class="color">
+    <footer class="text-center">
+        <p>Formato do Formulário TrybeTrip.</p>
+    </footer>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
