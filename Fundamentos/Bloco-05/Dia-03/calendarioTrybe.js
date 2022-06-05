@@ -151,4 +151,26 @@ dayOfCalendary.addEventListener('click', function(event){
     };
 });
 
+const input = document.querySelector('#task-input');
+const buttonThree = document.querySelector('#btn-add');
+let listTwo = document.querySelector('.task-list')
 
+buttonThree.addEventListener('click', function(){
+    if(input.value === ''){
+        alert('Erro, nenhum compromisso foi adicionado');
+     } else if (input.value.length > 0){
+        let createLi = document.createElement('li');
+        createLi.innerText = input.value;
+        listTwo.appendChild(createLi);
+        input.value = '';
+     };
+});
+
+input.addEventListener('keyup', function(event){
+    if(event.key === 'Enter' && input.value.length > 0){
+        let createLi = document.createElement('li');
+        createLi.innerText = input.value;
+        listTwo.appendChild(createLi);
+        input.value = '';
+    };
+});
