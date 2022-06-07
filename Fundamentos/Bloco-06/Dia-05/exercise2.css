@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  header {
+      background-color: rgb(184, 184, 184);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4vw;
+  }
+
+  header p {
+      margin: 0px auto;
+      font-weight: bold;
+      font-size: 2rem;
+  }
+
+
+  header nav ul {
+      display: flex;
+  }
+
+  header nav ul li {
+      list-style: none;
+      margin-right: 10px;
+  }
+
+  .aside {
+      /* display: flex;
+      justify-content: space-around;
+      align-items: baseline; */
+      float: right;
+  }
+
+  .aside h2 {
+      margin-left: 1rem;
+      text-align: left;
+  }
+
+  .main-content {
+      margin: 0% 2%;
+      text-align: justify;
+  }
+
+  .main-content p {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+  }
+
+  footer {
+      background-color: rgb(184, 184, 184);
+      width: 100%;
+      margin: 0% auto;
+      text-align: center;
+  }
+
+  @media screen and (max-width: 680px) {
+  
+    header p{
+        margin-left: 5%;
+        text-align: center;
+        font-size: 2.0rem;
+    }
+
+    header nav ul li {
+        font-size: 1.4rem;
+    }
+
+    .aside {
+        display: flex;
+        justify-content: baseline;
+    }
+
+    .aside ul li {
+        font-size: 1.4rem;
+    }
+
+    .main-content p {
+        font-size: 1.4rem;
+    }
+
+    footer h3{
+        font-size: 1.6rem;
+    }
+  }
+
+  @media screen and (min-width: 681px) and (max-width: 1279px){
+
+    header p{
+        margin-left: 8%;
+        text-align: center;
+        font-size: 2.0rem;
+    }
+
+    header nav ul li {
+        font-size: 1.4rem;
+    }
+
+    .aside {
+        margin: 0% 2%;
+    }
+
+    .aside ul li {
+        font-size: 1.0rem;
+    }
+
+    .main-content h1 {
+        text-align: center;
+    }
+
+    .main-content p {
+        font-size: 1.3rem;
+    }
+
+    footer h3 {
+        font-size: 2.0rem;
+    }
+  }
+
+
+  @media screen and (min-width: 1280px){
+
+    header p{
+        margin-left: 25%;
+        text-align: center;
+        font-size: 2.0rem;
+    }
+
+    header nav ul li {
+        font-size: 1.4rem;
+    }
+
+    .aside {
+        margin: 0% 2%;
+    }
+
+    .aside ul li {
+        font-size: 1.6rem;
+    }
+
+    .main-content h1 {
+        text-align: center;
+        font-size: 2.0rem;
+    }
+
+    .main-content p {
+        font-size: 1.4rem;
+    }
+
+    footer h3 {
+        font-size: 2.0rem;
+    }
+
+    footer p {
+        margin: 1% 2%;
+        font-size: 1.4rem;
+    }
+  }
