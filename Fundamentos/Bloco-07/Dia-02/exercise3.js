@@ -56,5 +56,40 @@ const lesson1 = {
     };
     return false;
   };
-  console.log(verifyPair(lesson3, 'turno', 'noite'));
-  console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
+  // console.log(verifyPair(lesson3, 'turno', 'noite'));
+  // console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
+//-------------------------------------------Bônus 1----------------------------------------------------
+  function countStudents() {
+    const i = Object.values(allLessons);
+    let result = 0;
+    for(let index in i){
+      if(Object.values(i[index])[0] === 'Matemática'){
+        result += Object.values(i[index])[1];
+      }
+    };
+    return result;
+  };
+  countStudents();
+  // console.log(countStudents());
+//-------------------------------------------Bônus 2----------------------------------------------------
+function getInfo (obj, name) {
+  const allLessons = [];
+  let allStudent = 0;
+  const array = Object.values(obj);
+  for (index in array) {
+    if (array[index].professor === name) {
+      allLessons.push(array[index].materia)
+      allStudent += array[index].numeroEstudantes;
+    };
+  };
+  return { lessons: allLessons, estudantes: allStudent };
+};
+
+const createReport = (allLessons, name) => {
+  const report = {};
+  report.professor = name;
+  Object.assign(report, getInfo(allLessons, name));
+  return report;
+};
+console.log(createReport(allLessons, 'Maria Clara'));
+//------------------------------------------------------------------------------------------------------
