@@ -61,14 +61,6 @@ const books = [
   },
 ];
 
-const smallerName = () => {
-  let nameBook;
-  books.forEach((book) => {
-    if(!nameBook || book.name.length < nameBook.length){
-      nameBook = book.name
-    }
-  });
-  return nameBook;
-};
+const everyoneWasBornOnSecXX = () => books.every((item) => item.author.birthYear >= 1901 && item.author.birthYear <= 2000);
 
-console.log(smallerName());
+console.log(everyoneWasBornOnSecXX());

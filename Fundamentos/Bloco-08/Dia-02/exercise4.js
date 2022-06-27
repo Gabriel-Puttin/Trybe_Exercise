@@ -61,14 +61,6 @@ const books = [
   },
 ];
 
-const smallerName = () => {
-  let nameBook;
-  books.forEach((book) => {
-    if(!nameBook || book.name.length < nameBook.length){
-      nameBook = book.name
-    }
-  });
-  return nameBook;
-};
+const booksOrderedByReleaseYearDesc = () => books.sort((a, b) => b.releaseYear - a.releaseYear);
 
-console.log(smallerName());
+console.log(booksOrderedByReleaseYearDesc());
