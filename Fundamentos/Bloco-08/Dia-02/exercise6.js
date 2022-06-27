@@ -61,14 +61,6 @@ const books = [
   },
 ];
 
-const smallerName = () => {
-  let nameBook;
-  books.forEach((book) => {
-    if(!nameBook || book.name.length < nameBook.length){
-      nameBook = book.name
-    }
-  });
-  return nameBook;
-};
+const someBookWasReleaseOnThe80s = () => books.some((book) => book.releaseYear >= 1980 && book.releaseYear <= 1989);
 
-console.log(smallerName());
+console.log(someBookWasReleaseOnThe80s());

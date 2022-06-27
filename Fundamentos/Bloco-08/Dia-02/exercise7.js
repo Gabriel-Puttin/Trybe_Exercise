@@ -61,14 +61,9 @@ const books = [
   },
 ];
 
-const smallerName = () => {
-  let nameBook;
-  books.forEach((book) => {
-    if(!nameBook || book.name.length < nameBook.length){
-      nameBook = book.name
-    }
-  });
-  return nameBook;
+const authorUnique = () => {
+ return books.every((item) => {
+    !books.some((book) => book.author.birthYear === item.author.birthYear) && (book.author.name !== item.author.name);
+  })
 };
-
-console.log(smallerName());
+console.log(authorUnique());
