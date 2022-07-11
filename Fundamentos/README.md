@@ -1,0 +1,7 @@
+# Fundamentos
+
+Este é o primeiro módulo do curso da Trybe, onde aprendi o básico para começar meu desenvolvimento web. Começando com as manipulações de comandos do bash, e o conceito de git, um sistema de controle de versão amplamente utilizado no mundo do desenvolvimento de software, e foi onde eu criei minha conta no github. Aprendi como criar uma estrutura básica de um site com HTML e CSS. Comecei meus primeiros passos com JavaScript, empregando lógicas de programação para criar funções que revolvem determinada demanda. E então aprendi a manipular o DOM, e começar a usar script dentro de uma página web estática, tornando-a mais dinâmica. Após, aprendi conceitos mais avançados de CSS e utilizei algumas bibliotecas de JavaScript e Frameworks CSS (como o bootstrap) nas minhas aplicações. Por fim aprendia as mais novas funcionalidade da versão ES6 do JavaScript (como as HOFs) e a realizar testes unitários com o Framework Jest.
+
+Com isso me tornei capaz de criar páginas com formulários, estilizadas de forma responsiva, utilizando frameworks e bibliotecas externas para a estilização e validação de dados. Sei agora utilizar as principais funcionalidades do ECMAScript 6, e implementar testes para garantir o correto funcionamento do algoritmo.
+
+Tendo isso em mente, esta pasta contÃ©m todas as atividades de aprendizagem que desenvolvi ao longo do mÃ³dulo de `Front-end` do curso da [Trybe](https://www.betrybe.com/).
