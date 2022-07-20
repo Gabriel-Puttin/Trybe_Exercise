@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(87, 87, 87);
+}
+
+h1 {
+  text-align: center;
+  color: green;
+}
+
+.pokedex {
+  margin: 0% auto;
+  max-width: 30%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.pokemon {
+  line-height: 2em;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 0;
+  min-width: 40%;
+  margin: 10px;
+}
