@@ -91,29 +91,29 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 10-2: _Componentes React_
 - [X] 10-3: _[Projeto - Sistema Solar]()_
 
-##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React :white_check_mark:
 
 - [X] 11-1: _Componentes com estado e eventos_
 - [X] 11-2: _Formulários no React_
 - [X] 11-3: _[Projeto - Tryunfo]()_
 
-##### Bloco 12: Ciclo de Vida de Componentes e React Router
+##### Bloco 12: Ciclo de Vida de Componentes e React Router :white_check_mark:
 
 - [X] 12-1: _Ciclo de vida de componentes_
 - [X] 12-2: _React Router_
 - [X] 12-3: _[Projeto - TrybeTunes]()_
 
-##### Bloco 13: Metodologias Ágeis
+##### Bloco 13: Metodologias Ágeis :white_check_mark:
 
 - [X] 13-1: _Metodologias Ágeis_
 - [X] 13-2: _[Projeto - Frontend Online Store]()_
 
-##### Bloco 14: Testes automatizados com React Testing Library
+##### Bloco 14: Testes automatizados com React Testing Library :white_check_mark:
 
 - [X] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _RTL - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [X] 14-2: _RTL - Mocks e Inputs_
+- [X] 14-3: _RTL - Testando React Router_
+- [X] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
