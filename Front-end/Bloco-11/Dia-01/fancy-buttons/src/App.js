@@ -1,30 +1,78 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 
-class App extends Component {
+class App extends React.Component {
   constructor() {
-    super()
+    super();
+    this.handleButtonOne = this.handleButtonOne.bind(this);
+    this.handleButtonTwo = this.handleButtonTwo.bind(this);
+    this.handleButtonThree = this.handleButtonThree.bind(this);
 
     this.state = {
-      numeroDeClick: 0
-    }
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-  
-  handleClick() {
-    this.setState((estadoAtual, _props) => ({
-      numeroDeClick: estadoAtual.numeroDeClick + 1
-    }));
+      clicksBtnOne: 0,
+      clicksBtnTwo: 0,
+      clicksBtnThree: 0,
+    };
   }
 
-  render() {
-    return(
-      <div>
-      <button onClick={this.handleClick}>{this.state.numeroDeClick}</button>
-      </div>
-    );
+  handleButtonOne() {
+    const { clicksBtnOne } = this.state;
+    this.setState((prevState) => ({
+      clicksBtnOne: prevState.clicksBtnOne + 1,
+    }), () => {
+      console.log(`Botão 1 ${this.getButtonColor(clicksBtnOne)}`);
+    });
   }
+
+  handleButtonTwo() {
+    const { clicksBtnTwo } = this.state;
+    this.setState((prevState) => ({
+      clicksBtnTwo: prevState.clicksBtnTwo + 1,
+    }), () => {
+      console.log(`Botão 2 ${this.getButtonColor(clicksBtnTwo)}`);
+    });
+  }
+
+  handleButtonThree() {
+    const { clicksBtnThree } = this.state;
+    this.setState((prevState) => ({
+      clicksBtnThree: prevState.clicksBtnThree + 1,
+    }), () => {
+      console.log(`Botão 3 ${this.getButtonColor(clicksBtnThree)}`);
+    });
+  }
+
+  getButtonColor(num) {
+    return num % 2 === 0 ? 'green' : 'white';
+  }
+
+render() {
+  const { clicksBtnOne, clicksBtnTwo, clicksBtnThree } = this.state;
+  return (
+    <div>
+      <button
+        type="button"
+        onClick={ this.handleButtonOne }
+        style={ { backgroundColor: this.getButtonColor(clicksBtnOne) } }
+      >
+        {`Cliques botão 1: ${clicksBtnOne}`}
+      </button>
+      <button
+        type="button"
+        onClick={ this.handleButtonTwo }
+        style={ { backgroundColor: this.getButtonColor(clicksBtnTwo) } }
+      >
+        {`Cliques botão 2: ${clicksBtnTwo}`}
+      </button>
+      <button
+        type="button"
+        onClick={ this.handleButtonThree }
+        style={ { backgroundColor: this.getButtonColor(clicksBtnThree) } }
+      >
+        {`Cliques botão 3: ${clicksBtnThree}`}
+      </button>
+    </div>
+  );
+}
 }
 
 export default App;
