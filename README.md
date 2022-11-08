@@ -75,7 +75,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 8-5: _[Projeto - Zoo functions]()_
 
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 9: JavaScript e Testes Assíncronos :white_check_mark:
 
@@ -115,7 +115,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 14-3: _RTL - Testando React Router_
 - [X] 14-4: _[Projeto - Testes em React]()_
 
-##### Bloco 15: Gerenciamento de estado com Redux
+##### Bloco 15: Gerenciamento de estado com Redux :white_check_mark:
 
 - [X] 15-1: _Introdução ao Redux - O estado global da aplicação_
 - [X] 15-2: _Usando o Redux no React_
@@ -124,24 +124,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 15-5: _Testes em React - Redux_
 - [X] 15-6: _[Projeto - Trybe Wallet]()_
 
-##### Bloco 16: Projeto Jogo de Trivia
+##### Bloco 16: Projeto Jogo de Trivia :white_check_mark:
 
 - [X] 16-1: _[Projeto - Jogo de Trivia]()_
 
-##### Bloco 17: Context API & React Hooks
+##### Bloco 17: Context API & React Hooks :white_check_mark:
 
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
 - [X] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-##### Bloco 18: Projeto App de Receitas
+##### Bloco 18: Projeto App de Receitas :white_check_mark:
 
 - [X] 18-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: Docker: Utilizando Containers
+##### Bloco 19: Docker: Utilizando Containers :white_check_mark:
 
 - [X] 19-1: _Introdução - Back-end_
 - [X] 19-1: _Utilizando Containers - Docker_
@@ -149,7 +149,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 19-3: _Orquestrando Containers com Docker Compose_
 - [X] 19-4: _[Projeto - Docker Todo-List]()_
 
-##### Bloco 20: Introdução à SQL
+##### Bloco 20: Introdução à SQL :white_check_mark:
 
 - [X] 20-1: _Introdução - Bancos de dados relacionais_
 - [X] 20-1: _Banco de dados SQL_
@@ -158,22 +158,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 20-4: _Manipulando tabelas_
 - [X] 20-5: _[Projeto - All For One]()_
 
-##### Bloco 21: Funções SQL, JOINs e Normalização
+##### Bloco 21: Funções SQL, JOINs e Normalização :white_check_mark:
 
 - [X] 21-1: _Funções mais  usadas no SQL_
 - [X] 21-2: _Descomplicandos JOINs_
 - [X] 21-2: _Transformando ideias em um modelo de banco de dados_
 - [X] 21-3: _[Projeto - One For All]()_
 
-##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
+##### Bloco 22: Introdução ao desenvolvimento Web com Node.js :white_check_mark:
 
 - [X] 22-1: _Intro - Node.js_
 - [X] 22-1: _Node.js - Um motor JavaScript_
 - [X] 22-2: _Node.js - Fluxo Assíncrono_
 - [X] 22-3: _Mocha, Chai e Shion - Testes de Back-end com Node.js_
-- [ ] 22-4: _Express - HTTP com Node.js_
-- [ ] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Atividades + Projeto - Talker Manager]()_
+- [X] 22-4: _Express - HTTP com Node.js_
+- [X] 22-5: _Express - Middlewares_
+- [X] 22-6: _[Atividades + Projeto - Talker Manager]()_
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
