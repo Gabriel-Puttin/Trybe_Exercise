@@ -1,0 +1,4 @@
+use("trybe_books");
+db.books.countDocuments({
+  "status": "PUBLISH"
+});

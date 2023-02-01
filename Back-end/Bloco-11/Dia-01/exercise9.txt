@@ -1,0 +1,7 @@
+use("trybe_books");
+db.books.find({}, {
+  "_id": 0,
+  "title": 1,
+  "isbn": 1,
+  "pageCount": 1
+}).limit(3);
