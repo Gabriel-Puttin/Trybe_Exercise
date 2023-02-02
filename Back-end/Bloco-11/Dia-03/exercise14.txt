@@ -1,0 +1,8 @@
+ use("cinema");
+ db.movies.find(
+   {
+     $expr: {
+       $lt: ["$budget", "$grossWorldwide"]
+     }
+   }
+ );
