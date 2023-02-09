@@ -1,0 +1,7 @@
+De acordo com a documentação do Mongoose, uma Interface, um Schema e uma Model servem para representar o quê? Dê exemplos
+
+Quando a Model for utilizada, o Mongoose se encarregará de criar toda a estrutura no MongoDB, ou seja, se a Collection ainda não existir, o Mongoose irá criá-la no banco de dados. Posteriormente, essa mesma model será utilizada para acessar os recursos fornecidos pelo MongoDB através do Mongoose.
+
+O schema pode ser visto como um molde de uma coleção, e será responsável por descrever toda a estrutura dos dados. Portanto, precisamos de um molde para cada tipo de coleção que teremos em nossa base de dados.
+
+As interfaces serão utilizadas como um contrato para o nosso Schema e para a Model
