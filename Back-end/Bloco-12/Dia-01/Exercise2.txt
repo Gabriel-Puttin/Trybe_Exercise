@@ -1,0 +1,2 @@
+Qual a diferença entre ODM e ORM?
+As ORMs servem facilitar a interação e a manipulação dos dados estruturados em banco de dados relacionais (como MySQL, PostgreSQL, entre outros). Já as ODMs servem facilitar a interação e a manipulação dos dados estruturados em banco de dados não relacionais (como o MongoDB, DynamoDB, entre outros).
