@@ -1,0 +1,9 @@
+Quais são os 4 pilares da programação orientada a objetos? Discorra sobre a definição de cada um deles e dê exemplos
+
+Abstração: A abstração consiste em esconder os detalhes da implementação de um objeto para outras partes do código. Um exemplo muito próximo do que estudamos hoje são os métodos expostos pelo pacote do Mongoose para podermos manipular o banco de dados! Em algum momento, na hora de manipular a model do Mongoose, você chamou os métodos find e create, mas não foi você que os escreveu e também não sabe precisamente as suas partes internas.
+
+Encapsulamento: O encapsulamento consiste na exibição e concessão de acesso para quem instancia uma classe. Outro exemplo muito próximo do que estudamos hoje, em nossas classes: criamos métodos e atributos privados que estavam encapsulados.
+
+Herança: A herança permite que classes mais específicas sejam criadas a partir de classes mais genéricas. No conteúdo de hoje, não trabalhamos com herança, mas um exemplo seria no mundo animal: se pensarmos em gatos e cachorros, ambos herdariam de uma classe “animal” ou “animal doméstico”, só que cada um tem suas caraterísticas e comportamentos.
+
+Polimorfismo: O polimorfismo é a condição de uma mesma coisa ocorrer de várias formas diferentes. Precisamos da herança para acontecer o polimorfismo. Ainda pensando nos animais, gatos e cachorros emitem sons ou se locomovem, mas isso é feito de forma diferente, e o polimorfismo trata sobre isso!

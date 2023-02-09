@@ -1,0 +1,2 @@
+O que são ODMS?
+São ferramentas criadas para facilitar a interação e a manipulação dos dados não relacionais (como o MongoDB, DynamoDB, entre outros).
