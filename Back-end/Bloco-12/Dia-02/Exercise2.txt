@@ -1,0 +1,7 @@
+Dentro da família de padrões criacionais, descreva o “Problema a ser solucionado” e o “Propósito” dos padrões Singleton e Factory Method
+
+Singleton:
+Imagine que temos um recurso que só pode ser instanciado uma vez e que ele deve estar acessível em sua aplicação. Quer um exemplo? Pense na música de um jogo, ou na sua conexão com o banco de dados!!! Esses são recursos que só precisam ser instanciados uma única vez e, depois disso, precisamos apenas pegar essa instância ativa e usá-la (instanciar várias vezes a conexão com o banco de dados ou uma música em um jogo podem derrubar o servidor). Daí surge o padrão denominado Singleton, um padrão de projeto que permite a você garantir que uma classe tenha apenas uma única instância, enquanto provê um ponto de acesso global para essa instância.
+
+Factory Method:
+Imagine que você tenha uma aplicação que provê um tipo de serviço para a pessoa usuária final, por exemplo, cadastro de uma chave de segurança via CPF. Agora imagine que você possa cadastrar novas chaves de segurança, como telefone, e-mail e etc. E o código, como fica agora? A maior parte do seu código é acoplada a uma classe, e adicionar novas possibilidades à aplicação exigiria alterações em toda a base de código. Daí surge o padrão denominado Factory Method, um padrão de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.

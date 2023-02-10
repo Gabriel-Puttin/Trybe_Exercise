@@ -1,0 +1,7 @@
+Dentro da família de padrões estruturais, descreva o “Problema a ser solucionado” e o “Propósito” dos padrões Adapter e Facade
+
+Adapter:
+Imagine que você esteja escrevendo uma API Node.js com servidor Express.js e arquitetura em camadas. Após finalizar grande parte do projeto, sua equipe se depara com a mudança do framework utilizado, e agora passa a ser utilizado Hapi. Depois de algumas pesquisas, vocês percebem que a mudança maior ficará a cargo do servidor e da camada Controller. Daí surge o padrão denominado Adapter, um padrão de projeto que permite que objetos com interfaces incompatíveis colaborem entre si.
+
+Facade:
+Imagine que você esteja terminando esta API e precise fazer seu código funcionar com um amplo conjunto de objetos que pertencem a uma sofisticada biblioteca ou framework. Normalmente, você precisaria inicializar todos aqueles objetos, rastrear as dependências, executar métodos na ordem correta, e assim por diante, acoplando firmemente toda a lógica de negócio de suas classes. Daí surge o padrão denominado Facade, um padrão de projeto que fornece uma interface simplificada para uma biblioteca, um framework ou qualquer conjunto complexo de classes. Neste caso, ao invés de instanciarmos diretamente os recursos de uma nova biblioteca em nosso código, definimos uma interface que irá mediar (padronizar) a comunicação entre seu código e essa biblioteca. O mesmo é válido se você quiser disponibilizar o seu código para outras pessoas.
