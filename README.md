@@ -239,18 +239,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 31: App de Delivery
 
-- [ ] 31-1: _[Projeto - App de Delivery]()_
+- [X] 31-1: _[Projeto - App de Delivery]()_
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 
-- [ ] 32-1: _Dia 1 - VPS_
-- [ ] 32-2: _Dia 2_
+- [X] 32-1: _Dia 1 - VPS_
+- [X] 32-2: _Dia 2_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 33: Introdução à Python
 
-- [ ] 33-1: _Introdução - Ciência da Computação_
+- [X] 33-1: _Introdução - Ciência da Computação_
 - [ ] 33-1: _Aprendendo Python_
 - [ ] 33-2: _Entrada e Saída de Dados_
 - [ ] 33-3: _Testes_
