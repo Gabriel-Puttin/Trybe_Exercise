@@ -6,7 +6,7 @@ invalid_email = 'usuario123'
 
 def test_is_validated_email_returns_correct():
     'Para um email válido'
-    assert validated_email(email) == 'Email valid'
+    assert validated_email(email) == email
 
 def test_is_validated_email_returns_correct():
     'Para um email inválido'
