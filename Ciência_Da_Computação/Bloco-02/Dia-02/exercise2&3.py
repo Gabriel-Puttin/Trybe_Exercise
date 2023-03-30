@@ -25,7 +25,7 @@ class Baralho(Iterable):
         return len(self._cartas)
 
     def __inter__(self):
-        return BaralhoInterator(self.cartas)
+        return BaralhoInterator(self._cartas)
 
 
 class BaralhoInterator(Iterator):
@@ -41,3 +41,23 @@ class BaralhoInterator(Iterator):
         else:
             self.index += 1
         return carta
+
+
+class BaralhoInteradorInverso(Iterator):
+    def __init__(self, cartas):
+        self.cartas = cartas
+        self.index = -1
+
+    def __next__(self):
+        try:
+            carta = self.cartas[self.index]
+        except IndexError:
+            raise StopIteration()
+        else:
+            self.index -= 1
+        return carta
+
+
+class BaralhoInverso(Baralho):
+    def __inter__(self):
+        return BaralhoInteradorInverso(self._cartas)
