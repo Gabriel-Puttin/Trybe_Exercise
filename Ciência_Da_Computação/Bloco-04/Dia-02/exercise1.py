@@ -6,4 +6,5 @@ def count_par_numbers(n: int) -> int:
     return result
 
 
-print(count_par_numbers(4))
+if __name__ == "__main__":
+    print(count_par_numbers(4))
