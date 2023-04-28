@@ -1,0 +1,3 @@
+["zebra", "macaco", "elefante", "arara", "javali"]
+Após duas iterações utilizando bubble sort, como estaria este array?
+["elefante", "arara", "javali" ,"macaco","zebra"]

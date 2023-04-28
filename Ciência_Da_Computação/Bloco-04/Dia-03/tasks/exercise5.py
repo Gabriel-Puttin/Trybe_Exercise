@@ -13,11 +13,12 @@ def binary_search(numbers, target):
         else:
             start = mid + 1
 
-    return -1
+    raise ValueError(f"{target} is not in list")
 
 
-numbers = [2, 3, 4, 10, 40]
-target = 40
+if __name__ == "__main__":
+    array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    target = 10
 
-result = binary_search(numbers, target)
-print(f"Elemento encontrado na posição: {result}")
+    result = binary_search(array, target)
+    print(f"Elemento encontrado na posição: {result}")
