@@ -100,6 +100,28 @@ class LinkedList:
     def is_empty(self):
         return not self.__length
 
+    def clear(self):
+        while not self.is_empty():
+            self.remove_first()
+
+    def __get_node_at(self, position):
+        value_to_be_returned = self.head_value
+        if value_to_be_returned:
+            while position > 0 and value_to_be_returned.next:
+                value_to_be_returned = value_to_be_returned.next
+                position -= 1
+        return value_to_be_returned
+
+    def index_of(self, value):
+        position = 1
+        current_value = self.head_value
+        while current_value:
+            if current_value.value == value:
+                return position
+            current_value = current_value.next
+            position += 1
+        return -1
+
 
 if __name__ == "__main__":
     linked_list = LinkedList()
