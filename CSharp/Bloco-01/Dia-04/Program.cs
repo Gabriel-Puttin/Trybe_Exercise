@@ -7,6 +7,8 @@ namespace Program
         static void Main()
         {
             ConcatString();
+            SplitString();
+            FindLetter();
         }
 
         public static void ConcatString()
@@ -23,7 +25,22 @@ namespace Program
         {
             string emails = "email1@trybe.com;email2@trybe.com;email3@trybe.com";
             string[] arrayEmails = emails.Split(";");
-            Console.WriteLine(arrayEmails);
+            foreach (string item in arrayEmails)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        public static void FindLetter()
+        {
+            string trybe = "Trybe";
+            int index = trybe.IndexOf("y");
+            Console.WriteLine(index);
+            int indexNone = trybe.IndexOf("s");
+            Console.WriteLine(indexNone);
+            string loveTrybe = "I love Trybe";
+            int i = loveTrybe.IndexOf("e", 13);
+            Console.WriteLine(i);
         }
     }
 }
