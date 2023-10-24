@@ -11,6 +11,8 @@ namespace Program
             FindLetter();
             FindString("c#");
             HanddleJoin();
+            InterpolationString();
+            HandleDate();
         }
 
         public static void ConcatString()
@@ -57,10 +59,30 @@ namespace Program
                 Console.WriteLine("Essa linguagem não existe no sistema");
         }
 
-        public static void HanddleJoin() {
+        public static void HanddleJoin()
+        {
             IEnumerable<int> listNumbers = Enumerable.Range(1, 10);
             string numbersText = string.Join(',', listNumbers);
             Console.WriteLine(numbersText);
+        }
+
+        public static void InterpolationString()
+        {
+            string name = "Gabriel";
+            string greetings = $"Olá, {name}! Boas vindas ao sistema parceiro da Trybe!";
+            Console.WriteLine(greetings);
+        }
+
+        public static void HandleDate()
+        {
+            var date = new DateTime(2022, 10, 2, 8, 35, 0);
+            var dataType = DateTime.Now;
+            var timeNow = $"O momento do tempo atual é {DateTime.Now}";
+            var dateOnly = date.Date;
+            var dayOnly = date.Day;
+            var monthOnly = date.Month;
+            var yearOnly = date.Year;
+            Console.WriteLine($"{date.ToString()}, {dataType.GetType()}, {timeNow}, {dateOnly.ToString()}, {dayOnly.ToString()}, {monthOnly.ToString()}, {yearOnly.ToString()}");
         }
     }
 }
