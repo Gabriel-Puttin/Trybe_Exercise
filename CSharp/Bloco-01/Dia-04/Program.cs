@@ -13,6 +13,8 @@ namespace Program
             HanddleJoin();
             InterpolationString();
             HandleDate();
+            FuncsDateTime();
+            AnonymousType();
         }
 
         public static void ConcatString()
@@ -83,6 +85,39 @@ namespace Program
             var monthOnly = date.Month;
             var yearOnly = date.Year;
             Console.WriteLine($"{date.ToString()}, {dataType.GetType()}, {timeNow}, {dateOnly.ToString()}, {dayOnly.ToString()}, {monthOnly.ToString()}, {yearOnly.ToString()}");
+        }
+
+        public static void FuncsDateTime()
+        {
+            var today = DateTime.Now;
+            var duration = new TimeSpan(36, 0, 0, 0);
+            var answer = today.Add(duration);
+            System.Console.WriteLine("Hoje é " + today.Day + "/" + today.Month + " - " + today.DayOfWeek);
+            System.Console.WriteLine("Daqui a 36 dias será " + answer.Day + "/" + answer.Month + " - " + answer.DayOfWeek);
+
+            var answer2 = today.AddDays(36);
+            System.Console.WriteLine("Daqui a 36 dias será " + answer.Day + "/" + answer.Month + " - " + answer.DayOfWeek);
+
+            DateTime date1 = new DateTime(2010, 9, 1, 5, 0, 0);
+            DateTime date2 = new DateTime(2022, 8, 10, 12, 0, 0);
+
+            int result = DateTime.Compare(date1, date2);
+            string relationship;
+
+            if (result < 0) relationship = "é anterior à";
+            else if (result == 0) relationship = "è o mesmo que";
+            else relationship = "è posterior à";
+
+            Console.WriteLine("{0} {1} {2}", date1, relationship, date2);
+        }
+
+        public static void AnonymousType()
+        {
+            var myAnonymousType = new { Amount = 42, Message = "Olá", Value = 3.95 };
+
+            Console.WriteLine(myAnonymousType.Amount);
+            Console.WriteLine(myAnonymousType.Message);
+            Console.WriteLine(myAnonymousType.Value);
         }
     }
 }
