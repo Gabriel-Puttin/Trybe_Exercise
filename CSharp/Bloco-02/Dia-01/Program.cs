@@ -4,9 +4,14 @@ namespace Dia_01;
 
 public class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        Rocket rocket1 = new Rocket("Apollo 17", 99,99);
-        Console.WriteLine(rocket1);
+        var rocket1 = new Rocket("Apollo 17", 99);
+        Console.WriteLine(rocket1.Name);
+
+        Console.WriteLine(Trybe.NumberOfStudents);
+        Trybe.Students = new string[] { "Leticia", "Silvio" };
+
+        Trybe.PrintStudents();
     }
 }
