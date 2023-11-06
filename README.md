@@ -280,14 +280,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 - [X] 37-1: _Arquitetura de Computadores_
 - [X] 37-2: _Arrays_
-- [ ] 37-3: _Nó e Listas Encadeadas_
-- [ ] 37-4: _Pilhas e Filas_
-- [ ] 37-5: _[Projeto - TING - Trybe Is Not Google]()_
+- [X] 37-3: _Nó e Listas Encadeadas_
+- [X] 37-4: _Pilhas e Filas_
+- [X] 37-5: _[Projeto - TING - Trybe Is Not Google]()_
 
 ##### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
 
-- [ ] 38-1: _Hashmaps e Dict_
-- [ ] 38-2: _Set_
-- [ ] 38-3: _[Projeto - Restaurant Orders]()_
+- [X] 38-1: _Hashmaps e Dict_
+- [X] 38-2: _Set_
+- [X] 38-3: _[Projeto - Restaurant Orders]()_
 
 # [...]
