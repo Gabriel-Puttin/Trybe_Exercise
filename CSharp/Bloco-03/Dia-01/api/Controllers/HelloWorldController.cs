@@ -7,5 +7,5 @@ namespace api.Controllers;
 public class HelloWorldController : ControllerBase
 {
     [HttpGet]
-    public string Get() => "Hello world";
+    public string Get() => "Hello World";
 }
