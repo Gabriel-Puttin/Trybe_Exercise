@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList", "ContactList\ContactList.csproj", "{F597A68E-43B5-4E9C-9D99-819C7E24C329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList.Test", "ContactList.Test\ContactList.Test.csproj", "{7391B5F8-BF1F-4B7C-8DA3-C8134C4AC5EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F597A68E-43B5-4E9C-9D99-819C7E24C329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F597A68E-43B5-4E9C-9D99-819C7E24C329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F597A68E-43B5-4E9C-9D99-819C7E24C329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F597A68E-43B5-4E9C-9D99-819C7E24C329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7391B5F8-BF1F-4B7C-8DA3-C8134C4AC5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7391B5F8-BF1F-4B7C-8DA3-C8134C4AC5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7391B5F8-BF1F-4B7C-8DA3-C8134C4AC5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7391B5F8-BF1F-4B7C-8DA3-C8134C4AC5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
