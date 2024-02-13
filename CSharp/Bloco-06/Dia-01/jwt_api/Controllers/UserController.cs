@@ -23,7 +23,7 @@ public class AuthController : Controller
                 return NotFound("User not found");
             }
             userViewModel.Token = new TokenGenerator().Generate();
-            // userViewModel.User.Password = string.Empty;
+            // userViewModel.User.Password = string.Empty();
 
         }
         catch (Exception ex)
