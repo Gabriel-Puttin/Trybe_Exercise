@@ -11,7 +11,7 @@ public class MyContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            var connectionString = "Server=127.0.0.1;Database=trybe_db;User=sa;Password=Password123!;TrustServerCertificate=True";
+            var connectionString = "Server=127.0.0.1;Database=trybe_db;User=SA;Password=Password123!;TrustServerCertificate=True";
             optionsBuilder.UseSqlServer(connectionString);
         }
     }
