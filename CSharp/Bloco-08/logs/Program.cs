@@ -6,7 +6,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient();
 builder.Services.AddAuthorization();
-builder.Services.AddControllers();
+builder.Services.AddMemoryCache();
+builder.Services.AddControllers(options => {
+    options.Filters.Add<CacheResponseFilter>();
+});
 
 var app = builder.Build();
 

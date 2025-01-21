@@ -5,10 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 public class PokemonController : ControllerBase
 {
     HttpClient _httpClient;
+    ILogger<PokemonController> _logger;
 
-    public PokemonController(HttpClient httpClient)
+    public PokemonController(HttpClient httpClient, ILogger<PokemonController> logger)
     {
         _httpClient = httpClient;
+        _logger = logger;
     }
 
     [HttpGet("{name}")]
@@ -19,10 +21,12 @@ public class PokemonController : ControllerBase
         {
             response.EnsureSuccessStatusCode();
             var content = await response.Content.ReadAsStringAsync();
+            _logger.LogInformation($"Pokemon found: {name}");
             return Content(content, "application/json");
         }
         catch (HttpRequestException)
         {
+            _logger.LogWarning($"Pokemon not found: {name}");
             return NotFound("Pokemon not found");
         }
     }
