@@ -1,0 +1,31 @@
+{
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/api/Catalog",
+            "UpstreamhttpsMethod": ["Get"],
+            "DownstreamScheme": "http",
+            "DownstreamPathTemplate": "/api/Catalog",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5040
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/pokemon/{id}",
+            "UpstreamhttpsMethod": ["Get"],
+            "DownstreamScheme": "http",
+            "DownstreamPathTemplate": "/pokemon/{id}",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5041
+                }
+            ]
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:5042"
+    }
+}
