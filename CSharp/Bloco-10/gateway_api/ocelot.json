@@ -7,7 +7,7 @@
             "DownstreamPathTemplate": "/api/Catalog",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "localhost",
+                    "Host": "catalog_api",
                     "Port": 5040
                 }
             ]
@@ -19,7 +19,7 @@
             "DownstreamPathTemplate": "/pokemon/{id}",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "localhost",
+                    "Host": "poke_api",
                     "Port": 5041
                 }
             ]
